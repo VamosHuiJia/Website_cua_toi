@@ -10,4 +10,4 @@
 
 =======================================
 
-🙏 **Thank you for visiting our website!**
+🙏 **Cảm ơn vì đã ghé qua!**
