@@ -23,11 +23,11 @@ export default function Search() {
         e.preventDefault();
 
         if (!searchValue) {
-            toast.error("Please enter a search term");
+            toast.error("Vui lòng nhập từ khóa tìm kiếm");
             return;
         }
         if (searchValue.trim().length > 255) {
-            toast.error("Search term must be less than 255 characters");
+            toast.error("Từ khóa tìm kiếm phải có ít hơn 255 ký tự");
             return;
         }
         navigate("/category/all-product", {
@@ -39,13 +39,13 @@ export default function Search() {
     return (
         <section className="searchPage">
             <h1 data-aos="fade-down" className="searchPage__title">
-                Search our store
+                Nhập sản phẩm bạn muốn tìm
             </h1>
             <form onSubmit={handleSearch} className="searchPage__input-wrapper" data-aos="fade-up">
                 <input
                     type="text"
                     className="searchPage__input"
-                    placeholder="Search our store"
+                    placeholder="Nhập sản phẩm bạn muốn tìm"
                     value={searchValue}
                     onChange={(e) => setSearchValue(e.target.value)}
                     maxLength={255}

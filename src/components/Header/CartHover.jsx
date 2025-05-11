@@ -60,7 +60,7 @@ export default function CartHover() {
             {uniqueCartItems.length > 0 ? (
                 <div className="cart-hover__footer">
                     <Link to="/cart" className="cart-hover__button">
-                        View Cart
+                        Xem giỏ hàng
                     </Link>
                 </div>
             ) : (

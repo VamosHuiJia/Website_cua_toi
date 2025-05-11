@@ -319,7 +319,7 @@ export default function Cart() {
                                             onChange={handleSelectAll}
                                         />
                                         <span className="checkmark"></span>
-                                        Select All ({selectedItems.length}/{cartItems.length})
+                                        Chọn tất cả ({selectedItems.length}/{cartItems.length})
                                     </label>
                                     {selectedItems.length > 0 && (
                                         <button
@@ -327,7 +327,7 @@ export default function Cart() {
                                             onClick={handleDeleteSelected}
                                         >
                                             <Trash2 size={16} />
-                                            Delete Selected ({selectedItems.length})
+                                            Xóa ({selectedItems.length})
                                         </button>
                                     )}
                                 </div>

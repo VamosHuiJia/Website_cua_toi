@@ -70,7 +70,7 @@ export default function MenuDesktop() {
                             <div className="header__submenu-left">
                                 {/* Column 1 */}
                                 <div className="submenu-col">
-                                    <h2 className="submenu-title">School Uniforms</h2>
+                                    <h2 className="submenu-title">Đồng phục trường</h2>
                                     <ul>
                                         <li>
                                             <Link
@@ -79,7 +79,7 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/shirts",
                                                 })}
                                             >
-                                                Shirts
+                                                Áo sơ mi
                                             </Link>
                                         </li>
                                         <li>
@@ -89,7 +89,7 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/skirts",
                                                 })}
                                             >
-                                                Skirts
+                                                Váy ngắn
                                             </Link>
                                         </li>
                                         <li>
@@ -99,10 +99,10 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/frocks",
                                                 })}
                                             >
-                                                Frocks
+                                                Váy liền
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="#!" className="header__submenu-link">
                                                 Trousers
                                             </a>
@@ -126,12 +126,12 @@ export default function MenuDesktop() {
                                             <a href="#!" className="header__submenu-link">
                                                 Shoes
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 {/* Column 2 */}
                                 <div className="submenu-col">
-                                    <h2 className="submenu-title">Sport Uniforms</h2>
+                                    <h2 className="submenu-title">Đồng phục thể thao</h2>
                                     <ul>
                                         <li>
                                             <Link
@@ -140,7 +140,7 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/pttshirts",
                                                 })}
                                             >
-                                                P.T T-shirts
+                                                Áo phông
                                             </Link>
                                         </li>
                                         <li>
@@ -150,7 +150,7 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/ptshorts",
                                                 })}
                                             >
-                                                P.T. Shorts
+                                                Quần ngắn
                                             </Link>
                                         </li>
                                         <li>
@@ -160,10 +160,10 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/pttrackpants",
                                                 })}
                                             >
-                                                P.T. track pants
+                                                Quần dài
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <a href="#!" className="header__submenu-link">
                                                 Sports Shoes
                                             </a>
@@ -187,12 +187,12 @@ export default function MenuDesktop() {
                                             <a href="#!" className="header__submenu-link">
                                                 Sports Bags
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                                 {/* Column 3 */}
                                 <div className="submenu-col">
-                                    <h2 className="submenu-title">Accessories</h2>
+                                    <h2 className="submenu-title">Phụ kiên</h2>
                                     <ul>
                                         <li>
                                             <Link
@@ -201,7 +201,7 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/belts",
                                                 })}
                                             >
-                                                Belts
+                                                Thắt lưng
                                             </Link>
                                         </li>
                                         <li>
@@ -211,10 +211,10 @@ export default function MenuDesktop() {
                                                     active: pathname === "/category/ties",
                                                 })}
                                             >
-                                                Ties
+                                                Cà vạt
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link
                                                 to="/category/logos"
                                                 className={clsx("header__submenu-link", {
@@ -253,7 +253,7 @@ export default function MenuDesktop() {
                                             <a href="#!" className="header__submenu-link">
                                                 Stationery
                                             </a>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
                             </div>
