@@ -335,10 +335,10 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/about",
                                 })}
                             >
-                                About Us
+                                Về chúng tôi
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to="/pages/careers"
                                 className={clsx("header__submenu-link", {
@@ -347,7 +347,7 @@ export default function MenuDesktop() {
                             >
                                 Careers
                             </Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link
                                 to="/pages/partners"
@@ -355,10 +355,10 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/partners",
                                 })}
                             >
-                                Partners
+                                Đối tác
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to="/pages/customer-growth-chart"
                                 className={clsx("header__submenu-link", {
@@ -378,7 +378,7 @@ export default function MenuDesktop() {
                             >
                                 Awards & Recognition
                             </Link>
-                        </li>
+                        </li> */}
                     </ul>
                 </li>
                 <li
@@ -412,7 +412,7 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/faq",
                                 })}
                             >
-                                <span>FAQ</span>
+                                <span>Câu hỏi thường gặp</span>
                             </Link>
                         </li>
                         <li>
@@ -422,7 +422,7 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/policies",
                                 })}
                             >
-                                Policies
+                                Chính sách
                             </Link>
                         </li>
                         <li>
@@ -432,10 +432,10 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/contact",
                                 })}
                             >
-                                Contact Us
+                                Liên hệ
                             </Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link
                                 to="/pages/order-tracking"
                                 className={clsx("header__submenu-link", {
@@ -444,7 +444,7 @@ export default function MenuDesktop() {
                             >
                                 Order Tracking
                             </Link>
-                        </li>
+                        </li> */}
                         {/* <li>
                             <Link
                                 to="/pages/size-guide"
@@ -564,7 +564,7 @@ export default function MenuDesktop() {
                     }
                 >
                     <a href="#!" className="header__link">
-                        Hoạt động
+                        Dành cho bạn
                         <img
                             src={`${process.env.REACT_APP_BASE_URL}/assets/icon/arrow-bottom.svg`}
                             className="header__icon-arow"
@@ -580,7 +580,7 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/wishlist",
                                 })}
                             >
-                                <span>Wishlist</span>
+                                <span>Yêu thích</span>
                             </Link>
                         </li>
                         <li>
@@ -590,7 +590,7 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/coupons",
                                 })}
                             >
-                                <span>Coupons</span>
+                                <span>Mã giảm giá</span>
                             </Link>
                         </li>
                         <li>
@@ -600,7 +600,7 @@ export default function MenuDesktop() {
                                     active: pathname === "/pages/recently-products",
                                 })}
                             >
-                                <span>Recently Products</span>
+                                <span>Sản phẩm gần đây</span>
                             </Link>
                         </li>
                     </ul>
